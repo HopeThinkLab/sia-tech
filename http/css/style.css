@@ -1048,7 +1048,7 @@ main > section.jumbotron h1, main > section.jumbotron h2, main > section.jumbotr
 main > section.jumbotron h2 { font-size: 3rem; font-weight: 400; padding-bottom: 0.5rem; display: block; }
 main > section.jumbotron h1 { font-size: 4rem; font-weight: 700; display: block; }
 main > section.jumbotron h3 { font-size: 1.75rem; font-weight: 400; display: block; }
-main > section.jumbotron .btn { margin-top: 1rem; }
+main > section.jumbotron .btn { margin-top: 1rem; margin-left: 1rem; }
 main > section.discover { background-color: #F5F5F5; min-height: 300px; color: #0B0E16; font-weight: 400; line-height: 1.4rem; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
 main > section.discover .icon-group { text-align: center; vertical-align: top; }
 main > section.discover .icon-group a { color: #0B0E16; padding: 1rem; text-align: center; display: inline-block; vertical-align: top; width: 8rem; }
