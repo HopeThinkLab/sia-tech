@@ -2,13 +2,16 @@
 <% include partial/header %>
 	<section class="article ">
 		<div class="container">
-			<header class="row">
-				<div class="col-xs-12">
+			<header class="row" style="padding-bottom: 1rem;">
+				<div class="col-xs-12" style="padding-bottom: 1rem;">
 					<h1><%= _T("About Us") %></h1>
 					<h2><%= _T("OUR MISSION") %></h2>
 				</div>
+				<div class="col-xs-8 col-xs-offset-2 video-wrapper">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/B4YGpWxyn6Y" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</header>
-			<div class="row">
+			<div class="row" style="padding-top: 1rem;">
 				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
 					<%- _T('<p>The idea of Sia was originally conceived at HackMIT 2013. What if you could liberate the unused storage space of the world and unite it into a worldwide free market for data?</p><p>Sia leverages the capacity of blockchain technology to enable distributed networks to reach consensus in a secure and trustless way. Cryptographically secured smart contracts ensure the encryption and transfer of data with no possibility for a third party to interfere in any way.</p><p>Sia is a new approach to cloud storage platforms. Instead of all datacenters being owned and operated by a single company, Sia opens the floodgates and allows anyone to make money by renting out their hard drive. Data integrity is protected using redundancy and cryptography.</p><p>The promise of Sia is a decentralized network of datacenters that, taken together, comprise the world\'s fastest, cheapest, and most secure cloud storage platform. Today, being a major cloud storage player requires having datacenters, building trust within the market, reaching customers, and competing with giants such as Amazon, Google, and Microsoft.</p><p>Breaking into this market is a multi-billion dollar endeavor. The long term goal of Sia is to be the backbone storage layer of the Internet.</p><p>We believe data should be free. We aim to liberate the unused bits of the world and construct the largest storage superserver on the planet.</p>')%>
 					<h3><%= _T('Contact') %></h3>
