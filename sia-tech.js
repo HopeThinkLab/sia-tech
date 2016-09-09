@@ -61,6 +61,14 @@ function SiaTech() {
 				return logger(req, res, next);
 			next();
 		});
+		
+		// call encodeURI on req.url to prevent XSS and HTML injection attacks
+		self.app.use(function(req, res, next) {
+			if (req.url) {
+				req.url = encodeURI(req.url);
+			}
+			next();
+		});
 
 		var viewPath = path.join(self.appFolder,'/views/');
 		digestViewDirectory(viewPath);
